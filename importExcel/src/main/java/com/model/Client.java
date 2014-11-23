@@ -4,8 +4,9 @@ package com.model;
 public class Client {
 
 	String number;
-	String relocated;
-	String value;
+	String name;
+	String surname;
+	String balance;
 	
 	public String getNumber() {
 		return number;
@@ -13,18 +14,25 @@ public class Client {
 	public void setNumber(String number) {
 		this.number = number;
 	}
-	public String getRelocated() {
-		return relocated;
+	public String getName() {
+		return name;
 	}
-	public void setRelocated(String relocated) {
-		this.relocated = relocated;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getValue() {
-		return value;
+	public String getSurname() {
+		return surname;
 	}
-	public void setValue(String value) {
-		this.value = value;
+	public void setSurname(String surname) {
+		this.surname = surname;
 	}
-
-
+	public String getBalance() {
+		return balance;
+	}
+	public void setBalance(String balance) {
+		this.balance = balance;
+	}
+	
+	
+	
 }
