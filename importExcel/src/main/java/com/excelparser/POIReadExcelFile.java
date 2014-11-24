@@ -139,7 +139,7 @@ public class POIReadExcelFile {
 		
 		int size = excelFileToJson.size();
 		
-		JSONArray sheet1 = (JSONArray) excelFileToJson.get(1);
+		JSONArray sheet1 = (JSONArray) excelFileToJson.get("Sheet1");
 		String row1 = sheet1.get(0).toString();
 		
 		//String clientList = gson.toJson(sheet1, Client.class);
